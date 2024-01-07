@@ -17,7 +17,11 @@ const Product = () => {
         <Typography variant="h4">
           Introduce Your Product Quickly & Effectively
         </Typography>
-        <Typography variant="p" sx={{ wordBreak: "break-word", width: "12px" }}>
+        <Typography
+          variant="p"
+          color={"#6F7CB2"}
+          sx={{ wordBreak: "break-word", width: "12px" }}
+        >
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
           et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -25,10 +29,12 @@ const Product = () => {
           consequat massa quis enim.
         </Typography>
         <Stack spacing={2} direction="row" marginTop={"20px"}>
-          <Button bgcolor="#111B47" variant="contained">
+          <Button sx={{ bgcolor: "#111B47" }} variant="contained">
             Purchase UI Kit
           </Button>
-          <Button variant="outlined">Learn More</Button>
+          <Button sx={{ borderColor: "#111B47" }} variant="outlined">
+            Learn More
+          </Button>
         </Stack>
       </Box>
       <Box sx={{ width: "50vw" }}>
