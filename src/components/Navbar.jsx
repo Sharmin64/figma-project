@@ -14,13 +14,10 @@ import MenuItem from "@mui/material/MenuItem";
 import PrecisionManufacturingIcon from "@mui/icons-material/PrecisionManufacturing";
 
 const pages = ["Home", "About", "Contact"];
+
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const Navbar = () => {
-  //   const [anchorElNav, setAnchorElNav] =
-  //     React.useState < null || HTMLElement > null;
-  //   const [anchorElUser, setAnchorElUser] =
-  //     React.useState < null || HTMLElement > null;
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
